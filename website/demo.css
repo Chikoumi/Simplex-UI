@@ -1,0 +1,50 @@
+            .color-change {
+                margin: -3px;
+                border-radius: 0px;
+                padding: 6px 6px;
+                width: 0px;
+                display: inline-block;
+                border: none;
+                cursor: pointer;
+                font-size: 14px;
+                line-height: 1;
+            }
+            .color-change.blue {
+                background-color: rgb(71, 104, 175);
+            }
+            .color-change.red {
+                background-color: rgb(250, 55, 78);
+            }
+            .color-change.green {
+                background-color: rgb(71, 175, 113);
+            }
+            .color-change.yellow {
+                background-color: rgb(250, 169, 55);
+            }
+            .color-change.default {
+                background-color: rgb(121, 121, 121);
+            }
+            .color-container {
+                float: left;
+                border: 3px groove;
+                padding: 2px 8px 2px 5px;
+                margin-left: -1px;
+                margin-top: 10px;
+                text-align: center;
+                background: rgb(236, 236, 236);
+                border-radius: 0px 10px 10px 0px;
+                position: fixed;
+            }
+            .color-container a {
+                font-size: 10px;
+                font-style: italic;
+            }
+
+            .color-container .lbl {
+                cursor: pointer;
+
+            }
+
+            .top-nav .color-container {
+                margin-top: -7px;
+            } 
