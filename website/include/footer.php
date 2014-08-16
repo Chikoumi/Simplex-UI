@@ -17,15 +17,17 @@
                           Simplex-UI is provide by Chk (Chikoumi), i'm a french guys who really love to create
                           website, i can use php, html, css, js and a lot of langage related to linux. I'm a member of
                           Harmony-Hosting's support who sell VPS. If you want to know more about me, you can read 
-                          <a href="http://chikoumi.com">my website</a>
+                          <a target="_blank" href="http://chikoumi.com" class="lbl yellow">my website</a>
                     </div>
                     <div class="col-3">
                         <h3>Simplex-UI</h3>
-                            If you want to know more about Simplex-ui's use you can read the <a href="/use">Utilisation page</a>.
-                            If you just to download it, you should go to <a href="/download">Download Page</a>.   
+                            If you want to know more about Simplex-ui's use you can read the <br>
+                            <a class="button button-green button-big button-block" href="/use">Usage page</a>
+                            <br>If you just to download it, you should go to : <br>
+                            <a class="button button-red button-big button-block" href="/download">Download Page</a>   
                     </div>
                 </div>
-                <p class="copy">&copy; <a href="http://chikoumi.com">Chk</a> | 2014 | Simplex-UI</p>
+                <p class="copy">&copy; <a target="_blank" href="http://chikoumi.com">Chk</a> | 2014 | Simplex-UI</p>
             </footer>
         </div>
         <!-- End-sticky-footer -->
@@ -34,6 +36,6 @@
         <script src="js/jquery-1.11.0.min.js"></script>
         <script src="js/general.js"></script> <!-- JS GENERAL code -->
         <!-- end-JS-invocation -->
-        <?php if ($titre = "Demo") { echo '<script src="demo.js"></script>';} ?>
+        <?php if ($titre == "Demo") { echo '<script src="demo.js"></script>';} ?>
     </body>
 </html>

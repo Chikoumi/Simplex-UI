@@ -13,8 +13,8 @@
         <link rel="stylesheet" type="text/css" href="css/reset.css"> <!-- call reset css-->
         <link rel="stylesheet" type="text/css" href="css/main.css"> <!-- call main css (require) -->
         <link rel="stylesheet" type="text/css" href="css/col.css"> <!-- call colonne system (require)-->
-
-        <link rel="stylesheet" type="text/css" href="demo.css"> <!-- Juste here for demo-->
+        
+        <?php if ($titre == "Demo") { echo '<link rel="stylesheet" type="text/css" href="demo.css"> <!-- Juste here for demo-->';} ?>
     </head>
     <body class="blue"> <!-- Just apply color to body wich modify footer & navbar color : default, red, yellow, blue, green && -->
 
@@ -33,6 +33,7 @@
                                 <ul><!-- DropDown -->
                                     <li><a href="/download"><i class="fa fa-slark"></i> Download</a></li>
                                     <li><a href="/use"><i class="fa fa-slark"></i> How to use</a></li>
+                                    <li><a target="_blank" href="https://github.com/Chikoumi/Simplex-UI"><i class="fa fa-slark"></i> Github</a></li>
                                 </ul><!-- End DropDown -->
                             </li>
                         </ul>
@@ -42,7 +43,7 @@
 
                 </header>
             </div>
-        <?php if ($titre = "Demo") { echo '<div class="color-container">
+        <?php if ($titre == "Demo") { echo '<div class="color-container">
                 <a>Themes :</a><br>
                 <span onclick="colors(\'blue\')" class="color-change blue"> </span>
                 <span onclick="colors(\'red\')" class="color-change red"> </span>
@@ -55,3 +56,24 @@
                 <span onclick="navbar(\'page top-nav\')" class="lbl green">On</span> <span onclick="navbar(\'page *top-nav\')" class="lbl red">Off</span>
 
         </div>';} ?>
+                    <!-- main-container -->
+            <div class="main-container">
+                <!-- main -->
+                <div class="main wrapper clearfix">
+            <div class="showcase">
+                <h1>Free HTML Starter Kit</h1>
+               If you want to start your site with a starter kit, this is the right place. I propose you a kit to be able to start in the web world. This kit does not pretend to be turnkey, you will subsequently create a site to your image. The use of the kit has been made as easy as possible.        
+
+            </div>
+
+            <div class="sidebar right"><!-- Just write Right or left to choose sidebar version -->
+                    <h3>About Version</h3>
+                    <h5>Actual:</h5>
+                    <p class="hl-red">Current version is 1.1</p>
+                    <h5>Alpha Version</h5>
+                    <p class="hl-blue">She was released on June 2014.
+                    <br>Aborted, go to beta version.</p>
+                    <h5>Beta Version</h5>
+                    <p class="hl-blue">She was released on July 2014.
+                    <br>Many bugs corrected, add lot of things.</p>
+                </div>
