@@ -13,8 +13,9 @@
         <link rel="stylesheet" type="text/css" href="css/reset.css"> <!-- call reset css-->
         <link rel="stylesheet" type="text/css" href="css/main.css"> <!-- call main css (require) -->
         <link rel="stylesheet" type="text/css" href="css/col.css"> <!-- call colonne system (require)-->
-        
-        <?php if ($titre == "Demo") { echo '<link rel="stylesheet" type="text/css" href="demo.css"> <!-- Juste here for demo-->';} ?>
+        <?php if ($titre == "Demo") { echo '<link rel="stylesheet" type="text/css" href="demo-files/demo.css"> <!-- Juste here for demo-->';} ?>
+<?php if ($titre == "How to use") { echo '<link rel="stylesheet" type="text/css" href="demo-files/demo.css"><link rel="stylesheet" type="text/css" href="demo-files/prism.css">';} ?>
+
     </head>
     <body class="blue"> <!-- Just apply color to body wich modify footer & navbar color : default, red, yellow, blue, green && -->
 
@@ -56,6 +57,28 @@
                 <span onclick="navbar(\'page top-nav\')" class="lbl green">On</span> <span onclick="navbar(\'page *top-nav\')" class="lbl red">Off</span>
 
         </div>';} ?>
+                <?php if ($titre == "How to use") { echo '                <div class="color-container">
+                    <h5>Navigation:</h5>
+                    <ul>
+                        <li><a href="#navbar">Navbar</a></li>
+                        <li><a href="#btn">Buttons</a></li>
+                        <li><a href="#lbl">Labels</a></li>
+                        <li><a href="#code">Code</a></li>
+                        <li><a href="#bash">Bash Console</a></li>
+                        <li><a href="#msg">Messages</a></li>
+                        <li><a href="#card">Cards Message</a></li>
+                        <li><a href="#progress">Progress-Bar</a></li>
+                        <li><a href="#hl">Highlight &lt;p&gt;</a></li>
+                        <li><a href="#blockquote">Blockquote</a></li>
+                        <li><a href="#hint">Hint Tips</a></li>
+                        <li><a href="#table">Tables</a></li>
+                        <li><a href="#scrabble">Scrabble</a></li>
+                        <li><a href="#pop-up">Pop-up</a></li>
+                        <li><a href="#plist">Price-List</a></li>
+                        <li><a href="#grid">Grid System</a></li>
+                    </ul>
+                </div>';} ?>
+
                     <!-- main-container -->
             <div class="main-container">
                 <!-- main -->

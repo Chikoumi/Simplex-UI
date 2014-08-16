@@ -38,6 +38,7 @@
             .color-container a {
                 font-size: 10px;
                 font-style: italic;
+                color: black;
             }
 
             .color-container .lbl {
@@ -48,3 +49,8 @@
             .top-nav .color-container {
                 margin-top: -7px;
             } 
+            .color-container ul {
+                list-style: none;
+                padding: 0px 0px 0px 2px;
+                text-align: left;
+            }

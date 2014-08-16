@@ -31,11 +31,12 @@
             </footer>
         </div>
         <!-- End-sticky-footer -->
-
+<script type="text/javascript"></script>
         <!-- JS-invocation -->
         <script src="js/jquery-1.11.0.min.js"></script>
         <script src="js/general.js"></script> <!-- JS GENERAL code -->
         <!-- end-JS-invocation -->
-        <?php if ($titre == "Demo") { echo '<script src="demo.js"></script>';} ?>
+        <?php if ($titre == "Demo") { echo '<script src="demo-files/demo.js"></script>';} ?>
+        <?php if ($titre == "How to use") { echo '<script src="demo-files/prism.js"></script>';} ?>
     </body>
 </html>
