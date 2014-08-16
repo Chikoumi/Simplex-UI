@@ -22,9 +22,9 @@
                     <div class="col-3">
                         <h3>Simplex-UI</h3>
                             If you want to know more about Simplex-ui's use you can read the <br>
-                            <a class="button button-green button-big button-block" href="/use">Usage page</a>
+                            <a class="button button-blue button-big button-block" href="/use">Usage page</a>
                             <br>If you just to download it, you should go to : <br>
-                            <a class="button button-red button-big button-block" href="/download">Download Page</a>   
+                            <a class="button button-green button-big button-block" href="/download">Download Page</a>   
                     </div>
                 </div>
                 <p class="copy">&copy; <a target="_blank" href="http://chikoumi.com">Chk</a> | 2014 | Simplex-UI</p>

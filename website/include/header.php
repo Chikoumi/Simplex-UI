@@ -17,7 +17,7 @@
 <?php if ($titre == "How to use") { echo '<link rel="stylesheet" type="text/css" href="demo-files/demo.css"><link rel="stylesheet" type="text/css" href="demo-files/prism.css">';} ?>
 
     </head>
-    <body class="blue"> <!-- Just apply color to body wich modify footer & navbar color : default, red, yellow, blue, green && -->
+    <body class="red"> <!-- Just apply color to body wich modify footer & navbar color : default, red, yellow, blue, green && -->
 
 <!-- Page -->
     <div class="page *top-nav"> <!-- remove * before top-bar to enable fixed navbar on top -->
