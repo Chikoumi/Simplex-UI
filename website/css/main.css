@@ -1031,6 +1031,17 @@ top: 8px;
 background-position: 25px 24px;
 }
 
+/* index rounded image */
+.index img {
+	border-radius: 100%;
+	border: 2px outset red;
+	display: block;
+	margin: 5px auto;
+}
+
+.index h5 {
+	text-align: center;
+}
 /* ==============
 	Menu: Brand 
    ============== */

@@ -1018,6 +1018,43 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.&lt;
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante.
      &lt;/div>
 &lt;/div></code></pre>
+                            <div class="grid index">
+                                <h3>3 Collums with img</h3>
+                                <div class="col_1">
+                                    <h5>Col_1</h5>
+                                    <img src="img/many.png"></img>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero.
+                                </div>
+                                <div class="col_1">
+                                    <h5>Col_1</h5>
+                                    <img src="img/many.png"></img>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero.
+                                </div>
+                                <div class="col_1">
+                                    <h5>Col_1</h5>
+                                    <img src="img/many.png"></img>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero.
+                                </div> 
+                            </div>
+                            <br>
+<h6>HTML code:</h6><pre><code class="language-markup">&lt;div class="grid index">
+    &lt;h3>3 Collums&lt;/h3>
+    &lt;div class="col_1">
+        &lt;h5>Col_1&lt;/h5>
+        &lt;img src="img/many.png">&lt;/img>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero.
+    &lt;/div>
+    &lt;div class="col_1">
+        &lt;h5>Col_1&lt;/h5>
+        &lt;img src="img/many.png">&lt;/img>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero.
+    &lt;/div>
+    &lt;div class="col_1">
+        &lt;h5>Col_1&lt;/h5>
+        &lt;img src="img/many.png">&lt;/img>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero.
+    &lt;/div> 
+&lt;/div></code></pre>
 
                 </div>
                 </div> <!-- End-main -->
